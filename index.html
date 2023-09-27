@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+    function display(another,value){
+
+      another(value)
+    }
+
+
+
+
+function sum(value){
+
+    console.log(value);
+}
+
+
+function dis(a){
+    console.log("inside function display"+a);
+    // console.log(a);
+}
+
+display(sum,"jay shree");
+
+display(dis,"hello jaipur");
+
+
+// display(dis,"sumit");
+display(  (value)=>{console.log(value);}    ,   "1112");
+
+
+
+
+var d=function (){
+
+
+    console.log("jaipur kota..\n");
+}
+d();
+</script>
+</html>
